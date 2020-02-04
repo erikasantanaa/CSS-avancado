@@ -1,0 +1,14 @@
+/* Pseudo elemento tem dois pontos (::) 
+Pseudo classes tem so um ponto (:)*/
+/* :first-child (primeiro filho) :nth-last-child() para pegar os outros . */
+
+input:focus{
+    color: brown;
+}
+
+li:first-of-type{
+    color: rebeccapurple;
+}
+li{
+    list-style: none;
+}

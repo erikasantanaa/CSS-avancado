@@ -1,0 +1,23 @@
+/* seletor (Sao maneiras de selecionar um elemento)
+EX: . (ponto, class) - # (hasteg, id) - * (asterisco, seleciona todos os elementos da pagina) - 
+EX: p, header, .p2 {
+    xxxx
+}
+ , (virgula, pode selecionar os elementos que forem usados.)
+
+EX: Usando (#header p { xxx };) estou selecionando o elemento que esta dentro da id.
+usando (#header > p {};) estou selecionando somente o elemento pai.
+usando (#header + p {};) estou selecionando somente o elemento que esta logo apos o header.
+usando (#header ~ p {};) estou selecionando todo o elemento logo apos o header. ele so nao pega os elementos que estiverem antes do header.
+
+EX: Atributo como seletor: 
+[width = "500"] {};
+
+*/
+
+[width = "500"] {
+    background-color: brown;
+};
+
+
+/* lista de seletores:   https://www.w3schools.com/cssref/css_selectors.asp */

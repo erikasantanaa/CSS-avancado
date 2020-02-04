@@ -1,0 +1,39 @@
+ /* :: (indica um pseudo elemento) */
+/* ::first-line (cor, tamanho da letra, espaçamento, etc.. em uma linha) */
+/* :first-lette (modifica somente a primeira letra, cor, tamanho, etc..) */
+/* ::before (permite que coloque um conteudo antes do elemento) */
+/* ::after (permite que coloque um conteudo depois do elemento) */
+/* ::selection (define um estilo para o texto que for selecionado (com o mouse) */
+
+p::first-letter{ 
+    color: red;
+    font-size: 5rem;
+}
+
+p::first-line{
+    color: brown;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li{
+    list-style: none;
+    /* margin-left: 250px; */
+    /* list-style-image: url(./img/rosa.jpg); */
+}
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./img/rosa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p::selection{
+    background-color: darkgray;
+    color: darkred;
+}
