@@ -1,0 +1,31 @@
+/* :root (é o html) .
+Para criar uma variavel no css:   --var_color: ;
+Simplifica o trabalho , quando tiver que criar varios valores que sao iguais.
+--square-size: 200px; ( modifica o tamanho do elemento).
+a maioria dos navegadores aceitam o --Var
+*/
+
+:root{
+    --var_color: aqua ;
+    --square-size: 100px;
+
+}
+
+.p2{
+    color:var(--var_color);
+    font-size: 25px;
+}
+.p3{
+    color: brown;
+    font-size: 14px;
+}
+.sqr1{
+        width: var(--square-size);
+        height: var(--square-size);
+        background-color: coral;
+}
+.sqr2{
+    width: var(--square-size);
+    height: var(--square-size);
+    background-color: rgb(75, 24, 6);
+}

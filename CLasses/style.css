@@ -7,8 +7,20 @@ input:focus{
 }
 
 li:first-of-type{
-    color: rebeccapurple;
+    color: rgb(228, 224, 15);
 }
 li{
     list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+li:nth-last-of-type(even){
+    background-color: cornflowerblue;
+}
+
+li:nth-last-of-type(odd){ 
+    background-color: rgb(139, 139, 139);
+    color: crimson
+    ;
 }
