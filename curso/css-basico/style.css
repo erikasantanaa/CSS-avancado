@@ -1,3 +1,34 @@
-body{
-    background-color: violet;
+/*responsividade*/
+#azul {
+	width: 50vw;
+	height: 300px;
+	background-color: blue;
+}
+
+#vermelho {
+	width: 200px;
+	height: 300px;
+	background-color: red;
+}
+
+.foto {
+	width: 50%;
+}
+
+/*Relativos para fontes*/
+
+.container {
+	font-size: 30px;
+}
+
+.exemplo1 {
+	font-size: 2em;
+}
+
+.exemplo2 {
+	font-size: 2rem;
+}
+
+.exemplo3 {
+	font-size: 20px;
 }
